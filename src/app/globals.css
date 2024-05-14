@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .heading {
+    @apply lg:text-[65px] md:text-[52px] sm:text-[40px] text-[30px];
+  }
+  .heading0 {
+    @apply font-bold lg:text-[65px] md:text-[48px] sm:text-[35px] text-[28px];
+  }
+  .heading0-light {
+    @apply font-bold lg:text-[60px] md:text-[43px] sm:text-[30px] text-[25px];
+  }
+  .heading1 {
+    @apply font-bold lg:text-[40px] md:text-[28px] sm:text-[20px] text-[18px];
+  }
+  .heading1-light {
+    @apply lg:text-[40px] md:text-[28px] sm:text-[22px] text-[18px];
+  }
+  .heading2 {
+    @apply font-bold lg:text-[30px] md:text-[20px] sm:text-[18px] text-[18px];
+  }
+  .heading3 {
+    @apply lg:text-[30px] md:text-[20px] sm:text-[18px] text-[18px];
+  }
+  .heading4 {
+    @apply lg:text-[24px] md:text-[18px] sm:text-[18px] text-[18px];
+  }
+  .heading5 {
+    @apply lg:text-[22px] md:text-[18px] sm:text-[18px] text-[18px];
+  }
+  .body1 {
+    @apply lg:text-[17px] md:text-[14px] sm:text-[12px] text-[10px];
+  }
+  .body2 {
+    @apply lg:text-[18px] md:text-[16px] sm:text-[14px] text-[12px];
+  }
+  .body3 {
+    @apply lg:text-[16px] md:text-[14px] sm:text-[13px] text-[12px];
+  }
+  @font-face {
+    font-family:'Medium';
+    font-family:'Medium';
+    src: url('/assets/fonts/Gilroy-Medium.ttf');
+    
+  }
+  @font-face {
+    font-family:'Bold';
+    src: url('/assets/fonts/Gilroy-Bold.ttf');
+  }
+  @font-face {
+    font-family:'Light';
+    src: url('/assets/fonts/Gilroy-Light.ttf');
+    
+  }
+  @font-face {
+    font-family:'Bold';
+    src: url('/assets/fonts/Gilroy-Bold.ttf');
+  }
+  @font-face {
+    font-family:'Light';
+    src: url('/assets/fonts/Gilroy-Light.ttf');
+  }
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+.app {
+  background-image: url('/assets/images/Group 1.png');
+  background-size: cover; 
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.whats-widget-container{
+  background: transparent linear-gradient(129deg, #B9002A 0%, #F23863 100%) 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  opacity: 1;
+}
+.card{
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+
+  background: #b9002bb2 100%;
+  border-radius: 12px;
+  opacity: 1;
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+}
+.btn{
+  top: 600px;
+left: 710px;
+width: 101px;
+height: 40px;
+background: var(--unnamed-color-de1b48) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ffffff);
+background: #DE1B48 0% 0% no-repeat padding-box;
+border: 1px solid #FFFFFF;
+border-radius: 29px;
+opacity: 1
+}
+.Article-widget{
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+
+border-radius: 15px;
+opacity: 1;
+backdrop-filter: blur(35px);
+-webkit-backdrop-filter: blur(35px);
+background: rgba(255, 255, 255, 0.1);
+ 
+/* Add a transparency to shadow */
+box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+}
+.inst{
+  
+  display: inline-block;
+width: 38px;
+height: 38px;
+ 
+  border-radius: 10px;
+  color: #fff;
+padding: 10px;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+.wether-Widget{
+  background: transparent linear-gradient(to bottom, #C0AFDE 0%, #CFB099 100%) 0% 0% no-repeat padding-box;
+
+  border-radius: 15px;
+  opacity: 1
+}

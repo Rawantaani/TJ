@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="220" viewBox="0 0 220 220">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.446" x2="0.5" y2="1.2" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#111921" stop-opacity="0"/>
+      <stop offset="1" stop-color="#111921"/>
+    </linearGradient>
+  </defs>
+  <rect id="Jordan-mountnebo_bs-1024x683" width="220" height="220" rx="15" transform="translate(220 220) rotate(180)" fill="url(#linear-gradient)"/>
+</svg>
